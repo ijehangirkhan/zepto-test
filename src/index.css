@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #d3d3d3;
+  font-size: 36px;
+  font-family: sans-serif;
+}
+
+.activityClass {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.durationFlex {
+  margin-top: 5px;
+  display: flex;
+}
+
+.durationButton {
+  background: white;
+  color: #707070;
+  font-size: 18px;
+  font-weight: bold;
+  width: 170px;
+  height: 70px;
+  border-radius: 5px;
+  margin-right: 8px;
+  border: none;
+  box-shadow: 0 8px 16px 0 #d3d3d3;
+  outline: none;
+  cursor: pointer;
+}
+
+.activeClass {
+  background: #dbd76a;
+}
+
+table {
+  margin-top: 50px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-right: 1px solid #e3e3e4;
+  border-left: 1px solid #e3e3e4;
+}
+
+td,
+th {
+  border-top: 1px solid #e3e3e4;
+  border-bottom: 1px solid #e3e3e4;
+  text-align: center;
+  padding: 15px;
+}
+
+th:nth-child(3) {
+  width: 40%;
+  text-align: left;
+}
+
+td:nth-child(3) {
+  text-align: left;
+}
